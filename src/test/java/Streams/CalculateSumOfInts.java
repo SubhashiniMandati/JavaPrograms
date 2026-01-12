@@ -12,7 +12,7 @@ public class CalculateSumOfInts {
     }
     private void validate(int input){
         if(input<0){
-            throw new InvalidInputException("Input number must not be negative");
+            throw new InvalidInputException("Input number must not be negative.");
         }
     }
 }
