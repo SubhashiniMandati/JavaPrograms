@@ -14,7 +14,7 @@ public class CountFrequencyOfCharactersInString {
     public static Map<Character,Long> charFreqency(String input){
         if(Objects.isNull(input) ||input.isBlank()){
             return Collections.emptyMap();
-        }
+         }
         return tokenize(input).
                 collect(Collectors.collectingAndThen(
                         Collectors.groupingBy(c->c, Collectors.counting()),

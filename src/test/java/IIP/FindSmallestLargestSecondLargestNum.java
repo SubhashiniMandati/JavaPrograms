@@ -1,6 +1,6 @@
 package IIP;
 
-public class FindSmallestLargestSecondLargestNum {
+public class    FindSmallestLargestSecondLargestNum {
     public static void main(String[] args) {
         int[] arr ={15,13,19,11,17};
         int largest=Integer.MIN_VALUE;

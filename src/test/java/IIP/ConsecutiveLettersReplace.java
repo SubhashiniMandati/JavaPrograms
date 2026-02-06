@@ -2,7 +2,7 @@ package IIP;
 
 public class ConsecutiveLettersReplace {
     public static void main(String[] args) {
-        String input="abcd12345ow";
+            String input="abcd12345ow";
         System.out.println(result(input));
     }
     private static String result(String input){

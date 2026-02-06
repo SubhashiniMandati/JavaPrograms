@@ -2,7 +2,7 @@ package IIP;
 import java.util.HashMap;
 import java.util.Map;
 
-public class  LongestSubstringMap {
+public class     LongestSubstringMap {
 
     public static String longestSubstring(String s) {
 

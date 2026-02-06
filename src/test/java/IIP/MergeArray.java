@@ -12,6 +12,6 @@ public class MergeArray {
 
     }
     static int[] merge(int[] arr1, int[] arr2){
-        return IntStream.concat(Arrays.stream(arr1), Arrays.stream(arr2)).sorted().toArray();
+        return IntStream.concat(Arrays.stream(arr1), Arrays.stream(arr2)).toArray();
     }
 }
